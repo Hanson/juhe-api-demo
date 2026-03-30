@@ -1,27 +1,17 @@
-# Binaries
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Logs
+*.log
+logs/
 
-# Test binary
-*.test
-
-# Output of the go coverage tool
-*.out
+# OS
+.DS_Store
+Thumbs.db
 
 # IDE
 .idea/
 .vscode/
-*.swp
-*.swo
+
+# Dependencies
+vendor/
 
 # Environment
 .env
-
-# Downloads
-downloads/
-
-# Dependency directories
-vendor/
